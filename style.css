@@ -1,0 +1,89 @@
+body {
+	font-family: Impact, Charcoal, sans-serif;
+	color: #f8f8ff;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	background-color: #d3d3d3;
+}
+
+p {
+	font-size: 1.5em;
+}
+
+input[type='url'] {
+	width: 35%;
+	border-radius: 4px;
+}
+
+input[type=url]:focus {
+	border: 3px solid #555;
+	outline: none;
+}
+
+input[type='text'] {
+	width: 35%;
+	border-radius: 4px;
+}
+
+input[type=text]:focus {
+	border: 3px solid #555;
+	outline: none;
+}
+
+input[type='submit'] {
+	background-color: #32cd32;
+	color: white;
+	transition-duration: 0.3s;
+	border-radius: 8px;
+}
+
+input[type='submit']:hover {
+	background-color: white;
+	color: #32cd32;
+}
+
+div {
+	position: relative;
+	width: 400px;
+	height: 200px;
+}
+
+button {
+	position: absolute;
+	background-color: red;
+	border-radius: 8px;
+	transition-duration: 0.3s;
+	color: white;
+	top: 40px;
+}
+
+button:hover {
+	background-color: white;
+	color: red;
+}
+
+img {
+	width: 400px;
+	height: 200px;
+}
+
+h2 {
+	position: absolute;
+	color: white;
+	font-family: Impact;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	text-transform: uppercase;
+}
+
+#newDiv {
+	padding-bottom: 5px;
+}
+
+#topText {
+	top: 0px;
+	left: 40%;
+}
+
+#bottomText {
+	bottom: 0px;
+	left: 40%;
+}
